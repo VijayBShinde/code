@@ -11,4 +11,11 @@ filter_data = FILTER jnd_grp BY COUNT(joinData) > 2;
 
 dump filter_data;
 
+ --------
+| Output |
+ --------
+ 
+(1,{(1,Vijay,2,Sports related,1),(1,Vijay,4,Envirments,1),(1,Vijay,7,dsads asdsadas das,1)})
+(3,{(3,Mark,3,Politics related,3),(3,Mark,6,Real estate,3),(3,Mark,9, my comment,3)})
+
 STORE filter_data INTO ‘/data/input/result’ using PigStorage(',');
