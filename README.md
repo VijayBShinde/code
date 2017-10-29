@@ -4,12 +4,17 @@ Assume there are two text files, user and comments. Below are the fields in each
 
 
 User File
+
 •	userID
+
 •	userName
 
 Comments File
+
 •	commentID
+
 •	commentDescription
+
 •	userID
 
 
@@ -18,8 +23,11 @@ Implement the same program using PIG scripts and HIVE SQL. The output text file 
 
 
 Output File
+
 •	userID
+
 •	username
+
 •	commentDescription
 
 
